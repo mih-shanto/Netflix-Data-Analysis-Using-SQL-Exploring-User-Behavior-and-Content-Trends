@@ -2,7 +2,7 @@
 
 ![image](https://github.com/mih-shanto/Netflix-Data-Analysis-Using-SQL-Exploring-User-Behavior-and-Content-Trends/blob/main/Project%20Details/logo.png)
 
-🚀##Project Overview
+## 🚀Project Overview
 In this project, I analyzed Netflix's vast content library using PostgreSQL, uncovering key patterns and trends in movies and TV shows. By writing complex SQL queries, I extracted valuable insights about content distribution, ratings, and more.
 
      1. Count the number of Movies vs TV Shows
@@ -123,3 +123,23 @@ In this project, I analyzed Netflix's vast content library using PostgreSQL, unc
 	-- 11. Find all content without a director
 	SELECT * FROM netflix
 	WHERE director IS NULL
+## 📊 Key Findings & Queries:
+- ✅ **Movies vs. TV Shows** – Analyzed the distribution to see which dominates Netflix.  
+- ✅ **Most common ratings** – Found the most frequent content ratings on the platform.  
+- ✅ **Yearly releases** – Listed all movies released in a specific year, such as 2020.  
+- ✅ **Top 5 content-producing countries** – Identified which countries contribute the most to Netflix. 🌍  
+- ✅ **Longest movie** – Found the movie with the highest runtime on the platform.  
+- ✅ **Recent content additions** – Checked how much content was added in the last 5 years.  
+- ✅ **Director spotlight** – Found all movies & TV shows by ‘Rajiv Chilaka.’ 🎬  
+- ✅ **TV shows with more than 5 seasons** – Listed series with long-running success.  
+- ✅ **Genre distribution** – Counted content items in each genre to understand popularity.  
+- ✅ **Documentary movies** – Filtered out all movies that belong to the documentary category.  
+- ✅ **Missing director info** – Identified content without a credited director.  
+
+## 🔍 Skills Applied:
+- ✔ Writing complex SQL queries in PostgreSQL  
+- ✔ Data cleaning & filtering  
+- ✔ Aggregation, sorting, and grouping  
+- ✔ Data exploration & pattern recognition
+  
+⭐ If you find this project interesting, don't forget to **star** the repo!  
